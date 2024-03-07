@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Covid-19</string>
+
+    <string name="khokan">
+        <a href="https://khokangorain.blogspot.com/">Click here for more information</a>
+    </string>
+</resources>

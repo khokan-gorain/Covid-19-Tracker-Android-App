@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/color_white"
+    android:layout_height="match_parent"
+    tools:context="com.khokan_gorain.covid19.khokan">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/dim_20dp"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+          <androidx.cardview.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:cardElevation="@dimen/dim_10dp"
+              android:layout_marginTop="@dimen/dim_20dp"
+              android:layout_marginLeft="@dimen/dim_10dp"
+              android:layout_marginRight="@dimen/dim_10dp">
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/dim_100dp"
+                  android:background="@color/colorPrimary">
+              </View>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image"
+                  android:layout_width="@dimen/dim_100dp"
+                  android:layout_marginTop="@dimen/dim_30dp"
+                  android:layout_marginStart="@dimen/dim_30dp"
+                  android:layout_height="@dimen/dim_100dp"
+                  android:src="@drawable/khoka"
+                  app:civ_border_width="@dimen/dim_2dp"
+                  app:civ_shadow_color="#010313"
+                  app:civ_border_color="@color/color_white"
+                  android:layout_marginLeft="@dimen/dim_30dp" />
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/dim_65dp"
+                  android:layout_marginStart="@dimen/dim_200dp"
+                  android:textStyle="bold"
+                  android:textSize="@dimen/dim_15sp"
+                  android:textColor="#F6F6F5"
+                  android:text="KHOKAN GORAIN"
+                  android:layout_marginLeft="@dimen/dim_200dp">
+              </TextView>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="@dimen/dim_40dp"
+                      android:layout_marginRight="@dimen/dim_40dp"
+                      android:text="When I’m working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong."
+                      android:textSize="@dimen/dim_15dp"
+                      android:layout_marginTop="@dimen/dim_160dp"
+                      android:justificationMode="inter_word"
+                      android:fontFamily="serif">
+                  </TextView>
+
+                  <TextView
+                  android:layout_width="match_parent"
+                      android:layout_marginTop="@dimen/dim_30dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="@dimen/dim_40dp"
+                  android:layout_marginRight="@dimen/dim_40dp"
+                  android:text="Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning."
+                  android:textSize="@dimen/dim_15dp"
+                  android:justificationMode="inter_word"
+                  android:fontFamily="serif">
+                  </TextView>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_marginTop="@dimen/dim_30dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="@dimen/dim_40dp"
+                      android:layout_marginRight="@dimen/dim_40dp"
+                      android:text="Programmers don’t burn out on hard work, they burn out on change-with-the-wind directives and not ‘shipping’."
+                      android:textSize="@dimen/dim_15dp"
+                      android:justificationMode="inter_word"
+                      android:fontFamily="serif">
+                  </TextView>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_marginTop="@dimen/dim_30dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="@dimen/dim_40dp"
+                      android:layout_marginRight="@dimen/dim_40dp"
+                      android:text="Daddy, how is software made?” “Well, when a programmer loves an idea very much they stay up all night and then push to github the next day."
+                      android:textSize="@dimen/dim_15dp"
+                      android:justificationMode="inter_word"
+                      android:fontFamily="serif">
+                  </TextView>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_marginTop="@dimen/dim_30dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="@dimen/dim_40dp"
+                      android:layout_marginRight="@dimen/dim_40dp"
+                      android:text="Prolific developers don’t always write a lot of code, instead they solve a lot of problems. The two things are not the same."
+                      android:textSize="@dimen/dim_15dp"
+                      android:justificationMode="inter_word"
+                      android:layout_marginBottom="@dimen/dim_30dp"
+                      android:fontFamily="serif">
+                  </TextView>
+
+
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:cardElevation="@dimen/dim_10dp"-->
+<!--                    android:layout_marginRight="@dimen/dim_10dp"-->
+<!--                    android:layout_marginTop="@dimen/dim_20dp"-->
+<!--                    android:layout_marginLeft="@dimen/dim_10dp">-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="@dimen/dim_70dp"-->
+<!--                        android:background="@drawable/devloper"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:text=" See More"-->
+<!--                            android:textSize="@dimen/dim_20sp"-->
+<!--                            android:textColor="#F8F8F6"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:gravity="center">-->
+<!--                        </TextView>-->
+<!--                    </LinearLayout>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/googlelink"-->
+<!--                            android:layout_marginTop="@dimen/dim_100dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textSize="@dimen/dim_15sp"-->
+<!--                            android:gravity="center"-->
+<!--                            android:textColor="#297A09"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:text="@string/khokan">-->
+<!--                        </TextView>-->
+<!--                    </LinearLayout>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_marginTop="@dimen/dim_140dp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="@dimen/dim_20dp"-->
+<!--                            android:onClick="img"-->
+<!--                            android:layout_height="@dimen/dim_20dp"-->
+<!--                            android:src="@drawable/phone">-->
+<!--                        </ImageView>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:id="@+id/tvcall"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="HelpLine"-->
+<!--                            android:onClick="call"-->
+<!--                            android:textSize="@dimen/dim_20sp"-->
+<!--                            android:layout_marginLeft="@dimen/dim_15dp"-->
+<!--                            android:textColor="#0D4911"-->
+<!--                            android:textStyle="bold">-->
+<!--                        </TextView>-->
+<!--                    </LinearLayout>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="@dimen/dim_80dp"-->
+<!--                        android:src="@drawable/android"-->
+<!--                        android:layout_marginBottom="@dimen/dim_20dp"-->
+<!--                        android:layout_marginTop="@dimen/dim_180dp">-->
+<!--                    </ImageView>-->
+<!--                </androidx.cardview.widget.CardView>-->
+<!--            </LinearLayout>-->
+        </LinearLayout>
+        </ScrollView>
+</RelativeLayout>

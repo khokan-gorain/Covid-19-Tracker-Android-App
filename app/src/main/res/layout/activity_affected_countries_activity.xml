@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    tools:context="com.khokan_gorain.covid19.affected_countries_activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_45dp"
+        android:id="@+id/edSearch"
+        android:layout_margin="@dimen/dim_10dp"
+        android:maxLines="1"
+        android:hint="Search"
+        android:background="@drawable/edittext"
+        android:singleLine="true"
+        android:drawablePadding="@dimen/dim_15dp"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:paddingLeft="@dimen/dim_10dp">
+
+    </EditText>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listView"
+        android:layout_below="@+id/edSearch"
+        android:layout_margin="@dimen/dim_10dp">
+
+    </ListView>
+    <com.leo.simplearcloader.SimpleArcLoader
+        android:layout_width="@dimen/dim_60dp"
+        android:visibility="visible"
+        android:layout_height="@dimen/dim_60dp"
+        android:id="@+id/loder"
+        app:arc_style="simple_arc"
+        android:layout_centerInParent="true">
+    </com.leo.simplearcloader.SimpleArcLoader>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/Desktop/covid_19/app/src/main/res/layout/activity_affected_countries_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/Desktop/covid_19/app/src/main/res/layout/activity_corona_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/Desktop/covid_19/app/src/main/res/layout/activity_dasbode_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/Desktop/covid_19/app/src/main/res/layout/activity_khokan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/Desktop/covid_19/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/HP/Desktop/covid_19/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/Desktop/covid_19/app/src/main/res/layout/activity_splash_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/Desktop/covid_19/app/src/main/res/layout/list_countem_item.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

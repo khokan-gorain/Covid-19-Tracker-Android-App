@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/color_white"
+    android:layout_height="match_parent"
+    tools:context="com.khokan_gorain.covid19.corona_activity">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/dim_15dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_60dp"
+                android:layout_marginTop="@dimen/dim_20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dim_15dp"
+                    app:cardCornerRadius="@dimen/dim_50dp"
+                    android:layout_marginRight="@dimen/dim_15dp"
+                    app:cardElevation="@dimen/dim_10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="SELF ISOLATION"
+                        android:textStyle="bold"
+                        android:textColor="#F4F4F0"
+                        android:textSize="@dimen/dim_22sp"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"></TextView>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/dim_47dp"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_marginTop="@dimen/dim_20dp">-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginLeft="@dimen/dim_15dp"-->
+<!--                    android:layout_marginRight="@dimen/dim_15dp">-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="@dimen/dim_60dp"-->
+<!--                            android:text="COVID 19"-->
+<!--                            android:textSize="@dimen/dim_25dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#F8F7F7"-->
+<!--                            android:gravity="center"-->
+<!--                            android:background="@drawable/gredent"-->
+<!--                            ></TextView>-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:weightSum="5">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:orientation="horizontal"-->
+<!--                                android:layout_weight="2">-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:padding="@dimen/dim_10dp"-->
+<!--                                    android:textStyle="italic"-->
+<!--                                   android:fontFamily="sans-serif-condensed-medium"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:justificationMode="inter_word"-->
+<!--                                    android:text="Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses-->
+<!--                                  are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS)-->
+<!--                                    and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.-->
+<!--                                        \n \n\nCOVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China,-->
+<!--                                in December 2019. COVID-19 is now a pandemic affecting many countries globally."></TextView>-->
+<!--                            </LinearLayout>-->
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:layout_weight="3">-->
+<!--                                <ImageView-->
+
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="@dimen/dim_300dp"-->
+<!--                                    android:src="@drawable/covid"-->
+<!--                                    android:layout_weight="1.5"></ImageView>-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="@dimen/dim_250dp"-->
+<!--                                    android:src="@drawable/covid1"-->
+<!--                                    android:layout_weight="1"></ImageView>-->
+
+
+<!--                            </LinearLayout>-->
+<!--                        </LinearLayout>-->
+
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--            </LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_420dp"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/dim_20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dim_15dp"
+                    android:layout_marginRight="@dimen/dim_15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dim_60dp"
+                            android:text="Stay Home"
+                            android:textSize="@dimen/dim_25dp"
+                            android:textStyle="bold"
+                            android:textColor="#F8F7F7"
+                            android:gravity="center"
+                            android:background="@color/colorPrimary"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="5">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="2">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:padding="@dimen/dim_10dp"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:layout_height="match_parent"
+                               android:justificationMode="inter_word"
+                                android:text="Stay home and self-isolate even with minor symptoms such as cough, headache, mild fever, until you recover. Have someone bring you supplies. If you need to leave your house, wear a mask to avoid infecting others. Why? Avoiding contact with others will protect them from possible COVID-19 and other viruses.\n\nIt is still recommended that people who are sick with COVID-19 and people who are at risk limit contact with companion and other animals. When handling and caring for animals, basic hygiene measures should always be implemented. This includes hand washing after handling animals, their food, or supplies, as well as avoiding kissing, licking or sharing food."></TextView>
+                        </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/stay1"
+                                    android:layout_weight="1.5"></ImageView>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/stay2"
+                                    android:layout_weight="1.5"></ImageView>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_440dp"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/dim_20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dim_15dp"
+                    android:layout_marginRight="@dimen/dim_15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dim_60dp"
+                            android:text=" Face Mask"
+                            android:textSize="@dimen/dim_25dp"
+                            android:textStyle="bold"
+                            android:textColor="#F8F7F7"
+                            android:gravity="center"
+                            android:background="@color/colorPrimary"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="5">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="2">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:padding="@dimen/dim_10dp"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:layout_height="match_parent"
+                                    android:justificationMode="inter_word"
+                                    android:text="This document provides advice on the use of masks in communities, during home care, and in health care settings in areas that have reported cases of COVID-19.It is intended for individuals in the community, public health and infection prevention and control (IPC) professionals, health care managers, health care workers (HCWs), and
+                                    community health workers.\n \nThe evidence about the benefits of these masks is limited. One good quality study showed that the risk of respiratory infection is increased (and not reduced) in health care workers using cotton cloth masks when compared to medical masks. Cloth masks are currently being recommended by some countries as a means of source control in the general population."></TextView>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/face1"
+                                    android:layout_weight="1.5"></ImageView>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/face2"
+                                    android:layout_weight="1"></ImageView>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_420dp"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/dim_20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dim_15dp"
+                    android:layout_marginRight="@dimen/dim_15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dim_60dp"
+                            android:text="Hand Sanitizer"
+                            android:textSize="@dimen/dim_25dp"
+                            android:textStyle="bold"
+                            android:textColor="#F8F7F7"
+                            android:gravity="center"
+                            android:background="@color/colorPrimary"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="5">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="2">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:padding="@dimen/dim_10dp"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:justificationMode="inter_word"
+                                    android:text="Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with
+                                     soap and water. Why? Washing your hands with soap and water or using
+                                    alcohol-based hand rub kills viruses that may be on your hands. \n\nKeep alcohol-based hand sanitizers out of children’s reach. Teach them how to apply the sanitizer and monitor its use.
+                                    \n\nAvoid touching your eyes, mouth and nose immediately after using an alcohol-based hand sanitizer, as it can cause irritation
+                                     "></TextView>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/handwash"
+                                    android:layout_weight="1.5"></ImageView>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/detol"
+                                    android:layout_weight="1"></ImageView>
+
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_420dp"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/dim_20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dim_15dp"
+                    android:layout_marginRight="@dimen/dim_15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dim_60dp"
+                            android:text="Social Distancing"
+                            android:textSize="@dimen/dim_25dp"
+                            android:textStyle="bold"
+                            android:textColor="#F8F7F7"
+                            android:gravity="center"
+                            android:background="@color/colorPrimary"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="5">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="2">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:padding="@dimen/dim_10dp"
+                                    android:layout_height="match_parent"
+                                    android:justificationMode="inter_word"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Maintain at least 1 metre (3 feet) distance between yourself and others. Why? When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease.
+                                    \n\nAvoid going to crowded places. Why? Where people come together in crowds, you are more likely to come into close contact with someone that has COIVD-19 and it is more difficult to maintain physical distance of 1 metre (3 feet).  "></TextView>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/socialdist"
+                                    android:layout_weight="1.5"></ImageView>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/social1"
+                                    android:layout_weight="1"></ImageView>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_410dp"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/dim_20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dim_15dp"
+                    android:layout_marginRight="@dimen/dim_15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dim_60dp"
+                            android:text="Symptoms"
+                            android:textSize="@dimen/dim_25dp"
+                            android:textStyle="bold"
+                            android:textColor="#F8F7F7"
+                            android:gravity="center"
+                            android:background="@color/colorPrimary"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="5">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="2">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:padding="@dimen/dim_10dp"
+                                    android:layout_height="match_parent"
+                                    android:justificationMode="inter_word"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="COVID-19 is mainly spread through respiratory droplets expelled by someone who is coughing or has other symptoms such as
+                                     fever or tiredness. Many people with COVID-19 experience only mild symptoms.
+                                     This is particularly true in the early stages of the disease. It is possible to
+                                     catch COVID-19 from someone who has just a mild cough and does not feel ill. \n\nSome reports have indicated that people with no symptoms can transmit the virus. It is not yet known how often it happens. WHO is assessing ongoing research on the topic and will continue to share updated findings."></TextView>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/sentomes"
+                                    android:layout_weight="1.5"></ImageView>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/symp"
+                                    android:layout_weight="1"></ImageView>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
