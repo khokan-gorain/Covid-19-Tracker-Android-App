@@ -1,3 +1,2 @@
-Covid-19 App 
-This is my first app
-Covid-19 tracker application very usefull app 
+
+Implemented robust data fetching mechanisms to ensure users have access to the most current and accurate information regarding COVID-19 cases, including confirmed cases, recoveries, and fatalities. Designed intuitive and visually engaging charts, graphs, and maps to present COVID-19 data in an easy-to-understand format.
