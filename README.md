@@ -3,6 +3,7 @@ Implemented robust data fetching mechanisms to ensure users have access to the m
 
 
 ![screen_1](https://github.com/khokan-gorain/Covid-19-Android-App/assets/118677468/eceb479f-0a0b-4e69-bc9d-0fd2c6192735)
+
 ![screen_2](https://github.com/khokan-gorain/Covid-19-Android-App/assets/118677468/66bd5654-6daf-454d-af99-c25ef574d560)
 ![screen_3](https://github.com/khokan-gorain/Covid-19-Android-App/assets/118677468/e3a65e00-7e5a-45a2-b3ce-287edd455371)
 ![screen_4](https://github.com/khokan-gorain/Covid-19-Android-App/assets/118677468/383c31c5-93c3-493f-a122-3332a3c5c25d)
